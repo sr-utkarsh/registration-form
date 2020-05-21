@@ -1,0 +1,60 @@
+body
+{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4 )),url(https://images3.alphacoders.com/102/102727.jpg);
+    height: 100vh;
+    background-position: center; 
+    background-size: cover;
+}
+.Registration-page
+{
+    margin: auto;
+    width: 300px;
+    padding: 5% 0 0;
+}
+.form
+{
+    position: relative;
+    z-index: 1;
+    padding: 2%,4%;
+    margin: solid black 5px;
+    text-align: center;
+    text-decoration: springgreen;
+}
+
+.form input
+{
+   background-color: cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    text-decoration: gold;
+    border: black 2px;
+    margin: 0 0 5%;
+    box-sizing: content-box;
+    padding: 3px;
+
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: cyan;
+    color: lime;
+}
+
+.form button
+{
+    height: 5vh;
+    background-color: mediumpurple;
+    box-shadow: 1vh;
+    box-shadow: midnightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(208, 250, 54);
+    cursor: pointer;
+    column-gap: 2vw;
+}
+.form button :hover
+{
+    background-color: rgb(14, 4, 70);
+    width: 3vw;
+}

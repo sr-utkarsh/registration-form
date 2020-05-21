@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="theme.css" type="text/css">
+        <script type="text/javascript" src="validation.js" >
+            
+        </script>
+        <title>
+            REGISTRATION FORM
+        </title>
+    </head>
+    <body>
+        <div class="Registration-page">
+            <div class="form">
+                <form action="get" name="register" class="register" onsubmit="return validate()">
+                    <p ><b> Your First  Name</b>
+                        <input type="text" placeholder="Your First  Name here" name="firstname"  />
+                    </p>
+                    <p><b>Enter Your Last  Name</b>
+                        <input type="text" placeholder="Enter Your Last  Name" name="lastname"  />
+                    </p>
+                    <p ><b> Enter a strong password</b>
+                        <input type="text" placeholder="enter password" name="password"  />
+                    </p>
+                     <p><b>Enter Your Date Of Birth</b>
+                    <input type="date" placeholder="Enter Your Date Of Birth" name="dob" />
+
+                     </p>
+                     <p><b>Enter Your Mail-Id</b>
+                    <input type="email" placeholder="Enter Your Mail-Id" name="email" /> 
+                     </p>
+                    <p><b>Select Your Gender</b> <br>
+                    <input type="radio" id="male" name="gender" > <label for="male" style="color: aqua;">Male</label> 
+                    <input type="radio" id="female" name="gender" > <label for="female" style="color: aqua;">Female</label> 
+                    <input type="radio" id="other" name="gender" > <label for="other" style="color: aqua;">Other</label> 
+                    </p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear Form</button>
+                    
+                    
+                </form>
+
+            </div>
+
+        </div>
+    </body>
+</html>
